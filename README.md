@@ -1,5 +1,5 @@
 # Examsoft Assessment: James Campbell
-Thank you for your consideration, in this repository is my assessment file which will take in some text, count word occurances, and display counts grouped by the words.
+Thank you for your consideration, in this repository is my assessment file which will take in some text, count word occurrences, and display counts grouped by the words.
 
 ### A few user details about the application:
  
@@ -16,7 +16,7 @@ Thank you for your consideration, in this repository is my assessment file which
 
 ### How to run
 
-After Java has been installed, simply compile the .java class:
+After Java has been installed, simply compile the .java class by navigating to the root of the project folder and running (via command line):
 
 ``javac -d ./ *.java``
 
