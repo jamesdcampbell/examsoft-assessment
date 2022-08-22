@@ -18,7 +18,7 @@ public class WordFrequencyCalculator {
         Arrays.asList(text.split(" ")).stream()
             .filter(v -> v.matches(".*[a-zA-Z].*"))  //Remove only numbers, spaces, or characters
             .map(String::toLowerCase) //Lower case all words for match equality
-            .map(v -> v.replaceAll("[^a-zA-Z\\d\\s'\\-:]","")) //Replace all characters in words except for apostrophy and hyphen
+            .map(v -> v.replaceAll("[^a-zA-Z\\d\\s'\\-:]","")) //Replace all characters in words except for apostrophe and hyphen
             .collect(Collectors.groupingBy(  //Group by word
             Function.identity(),  //word
             Collectors.counting())).entrySet().stream()  //Count
